@@ -320,7 +320,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>СогласованнаяСкидка</name>
-        <id>169</id>
+        <id>180</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -331,7 +331,7 @@
         </dataPath>
         <extendedTooltip>
           <name>СогласованнаяСкидкаРасширеннаяПодсказка</name>
-          <id>171</id>
+          <id>182</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -341,7 +341,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>СогласованнаяСкидкаКонтекстноеМеню</name>
-          <id>170</id>
+          <id>181</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
