@@ -239,16 +239,19 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>КонтрагентNet_КонтактноеЛицо</name>
-        <id>166</id>
+        <name>Net_КонтактноеЛицо</name>
+        <id>177</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Net_КонтактноеЛицо</segments>
+        </dataPath>
         <extendedTooltip>
-          <name>КонтрагентNet_КонтактноеЛицоРасширеннаяПодсказка</name>
-          <id>168</id>
+          <name>Net_КонтактноеЛицоРасширеннаяПодсказка</name>
+          <id>179</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -257,14 +260,23 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>КонтрагентNet_КонтактноеЛицоКонтекстноеМеню</name>
-          <id>167</id>
+          <name>Net_КонтактноеЛицоКонтекстноеМеню</name>
+          <id>178</id>
           <autoFill>true</autoFill>
         </contextMenu>
+        <type>InputField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>Договор</name>
